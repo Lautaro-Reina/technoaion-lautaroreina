@@ -143,9 +143,22 @@
 
 /* CAROUSEL BS */
 
-.icon--new {
-    background-color: black;
-    border-radius: 50%;
+.prev-icon--sli, .next-icon--sli {
+    background-image: none;
+}
+
+.icon--prev, .icon--next {
+    background-image: none;
+
+    i {
+        color: $colortitle;
+    }
+}
+.control-prev--new, .control-next--new {
+    width: 1px;
+    height: 30px;
+    top: 47%;
+    bottom: auto;
 }
 
 /* BOTON WHATSAPP */
