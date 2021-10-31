@@ -419,6 +419,12 @@
   margin-bottom: 0;
 }
 
+/* CAROUSEL BS */
+.icon--new {
+  background-color: black;
+  border-radius: 50%;
+}
+
 /* BOTON WHATSAPP */
 .btnWsp {
   display: block;
@@ -621,11 +627,6 @@
 
 .contactoIcon {
   width: 4em;
-}
-
-.contactoIcon:hover {
-  border: 2px solid #00a8e7;
-  border-radius: 100%;
 }
 
 .titulo--contacto {
